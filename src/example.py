@@ -1,6 +1,6 @@
 from typing import Union
 
-from masks import get_mask_account, get_mask_card_number
+from main import get_mask_account, get_mask_card_number
 
 
 def mask_account_card(card_number_and_name: Union[str]) -> Union[str]:
